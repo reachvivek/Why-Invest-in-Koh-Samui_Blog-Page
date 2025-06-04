@@ -27,10 +27,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article" />
-    <meta
-      property="og:url"
-      content="https://yoursite.com/koh-samui-real-estate-guide"
-    />
+    <meta property="og:url" content="https://kohsamui.vercel.app" />
     <meta
       property="og:title"
       content="Koh Samui Real Estate Investment Guide 2025 | Thailand Property Yields 7-10%"
@@ -59,10 +56,7 @@
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta
-      property="twitter:url"
-      content="https://yoursite.com/koh-samui-real-estate-guide"
-    />
+    <meta property="twitter:url" content="https://kohsamui.vercel.app" />
     <meta
       property="twitter:title"
       content="Koh Samui Real Estate Investment Guide 2025 | Thailand Property Yields 7-10%"
@@ -84,10 +78,7 @@
     <meta name="ICBM" content="9.5018, 100.0264" />
 
     <!-- Canonical URL -->
-    <link
-      rel="canonical"
-      href="https://yoursite.com/koh-samui-real-estate-guide"
-    />
+    <link rel="canonical" href="https://kohsamui.vercel.app" />
 
     <!-- Structured Data for SEO -->
     <script type="application/ld+json">
@@ -109,7 +100,7 @@
         "dateModified": "2025-06-03",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://yoursite.com/koh-samui-real-estate-guide"
+          "@id": "https://kohsamui.vercel.app"
         },
         "about": {
           "@type": "Place",
@@ -304,6 +295,39 @@
         font-size: 0.9em;
       }
 
+      .image-wrapper {
+        width: 100%;
+        margin-bottom: 14px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+      }
+
+      .image-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        border-radius: inherit;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      /* Aspect ratio 16:9 for desktop */
+      .image-wrapper::before {
+        content: "";
+        display: block;
+        padding-top: 56.25%; /* 16:9 aspect ratio */
+      }
+
+      @media (max-width: 768px) {
+        /* Aspect ratio 4:5 for mobile */
+        .image-wrapper::before {
+          padding-top: 125%; /* 4:5 aspect ratio */
+        }
+      }
+
       @media print {
         body {
           max-width: none;
@@ -344,11 +368,9 @@
       </div>
     </div>
 
-    <img
-      class="hero-image"
-      src="https://media.istockphoto.com/id/1368616366/photo/silver-beach-on-koh-samui-island-at-sunset-thailand.jpg?s=612x612&w=0&k=20&c=-2JRuxZCaNUbBn5ZCdyCjiyXc9WdWyA_nYrqtWlfCCQ="
-      alt=""
-    />
+    <div class="image-wrapper">
+      <img src="https://i.ibb.co/tPDPQPpT/5909876588890142939.jpg" alt="" />
+    </div>
 
     <p>
       Property analysts have been observing the Thai property market for over a
@@ -382,11 +404,9 @@
 
     <h2>The Infrastructure Story Nobody Talks About</h2>
 
-    <img
-      class="hero-image"
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW5-kg6-remwM4SpoP0lsTut0EmRhS9p_fVQ&s"
-      alt=""
-    />
+    <div class="image-wrapper">
+      <img src="https://i.ibb.co/0p4dfg3T/5910034836960164057.jpg" alt="" />
+    </div>
 
     <div class="image-caption">
       Modern infrastructure meets authentic Thai heritage
@@ -429,11 +449,9 @@
 
     <h2>Location Still Matters Most</h2>
 
-    <img
-      class="hero-image"
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3vqT5_VhNuHc8I-DBC_kouaqSq1Osgct1XA&s"
-      alt=""
-    />
+    <div class="image-wrapper">
+      <img src="https://i.ibb.co/DDHb7s4R/5909942417853888775.jpg" alt="" />
+    </div>
     <div class="image-caption">
       Lamai's perfect balance - family-friendly atmosphere with modern amenities
     </div>
